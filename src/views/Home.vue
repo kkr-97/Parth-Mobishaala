@@ -71,13 +71,24 @@
             ></iframe>
           </div>
         </div>
-
+      <!-- <div class="top-contact-bar ">
         <a
           target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSeHp9h23v1vhoaSzI6UdxVzEL_QDALOJmYgtNKgn28L6A0a7w/viewform?usp=sf_link"
           class="btn-flat institute-number feedback-btn"
           >Feedback - अभिप्राय</a
         >
+      </div> -->
+
+      <a
+          target="_blank"
+          href="https://api.whatsapp.com/send/?phone=919972968390&text=Hello%21+I+want+to+know+about+mobishaala.com%2C+my+name+is+&type=phone_number&app_absent=0"
+          class="whatsapp-btn"
+          >
+          <img src="../assets/whatsapp.svg" height="32">
+          <span>WhatsApp</span>
+    </a>
+      
 
         <div class="header-text-2">
           <b>Powered By</b>
@@ -106,6 +117,19 @@
   border: 1px solid black;
   border-radius: 20px;
 }
+
+.whatsapp-btn{
+  background-color: #399938;
+  padding: 12px 22px 12px 22px;
+  color: white;
+  border-width: 0;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 146px;
+}
+
 .footer {
   margin-top: 32px;
   margin-right: 32px;
@@ -231,9 +255,9 @@
   padding-bottom: 8px;
   padding-right: 8px;
   max-width: 1000px;
-  /* display: flex;
+   display: flex;
   align-items: center;
-  justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .top-contact-bar .institute-number {
